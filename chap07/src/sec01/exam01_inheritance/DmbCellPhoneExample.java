@@ -1,4 +1,4 @@
-package chap07.sec01.exam01_inheritance;
+package sec01.exam01_inheritance;
 
 public class DmbCellPhoneExample {
 	public static void main(String[] args) {

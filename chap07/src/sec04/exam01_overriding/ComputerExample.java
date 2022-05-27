@@ -1,4 +1,4 @@
-package chap07.sec04.exam01_overriding;
+package sec04.exam01_overriding;
 
 public class ComputerExample {
 

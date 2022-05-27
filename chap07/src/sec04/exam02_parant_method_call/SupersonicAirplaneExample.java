@@ -1,4 +1,4 @@
-package chap07.sec04.exam02_parant_method_call;
+package sec04.exam02_parant_method_call;
 
 public class SupersonicAirplaneExample {
 

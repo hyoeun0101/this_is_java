@@ -1,4 +1,4 @@
-package chap07.sec03.exam01_parant_constructor_call;
+package sec03.exam01_parant_constructor_call;
 
 public class Student extends People{
 	public int studentNo;
