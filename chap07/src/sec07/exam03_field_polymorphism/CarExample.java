@@ -6,27 +6,10 @@ public class CarExample {
 		
 		for(int i=0;i<=5;i++) {
 			int problemLocation = car.run();
-			
-			switch(problemLocation) {
-			case 1:
-				System.out.println("앞왼 HanKookTire로 교체");
-				car.flTire = new HanKookTire("앞왼",15);
-				break;
-				
-			case 2:
-				System.out.println("앞오 KumhoTire로 교체");
-				car.frTire = new KumhoTire("앞오",13);
-				break;
-				
-			case 3:
-				System.out.println("뒤왼 HanKookTire로 교체");
-				car.blTire = new HanKookTire("뒤왼",14);
-				break;
-				
-			case 4:
-				System.out.println("뒤오 KumhoTire로 교체");
-				car.brTire = new KumhoTire("뒤오",17);
-				break;
+			//타이어 펑크남.
+			if(problemLocation !=0) {
+				System.out.println(car.tires[problemLocation-1].location+"HanKoolTire로 교체");
+				car.tires[problemLocation-1] = new HanKookTire(car.tires[problemLocation-1].location,15);
 			}
 			System.out.println("======================");
 		}
