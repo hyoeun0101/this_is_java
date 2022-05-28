@@ -3,7 +3,7 @@ package sec07.exam03_field_polymorphism;
 public class CarExample {
 	public static void main(String[] args) {
 		Car car = new Car();
-		
+		//5¹ø ¹Ýº¹
 		for(int i=0;i<=5;i++) {
 			int problemLocation = car.run();
 			

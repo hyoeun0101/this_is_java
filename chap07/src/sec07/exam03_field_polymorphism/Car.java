@@ -2,6 +2,7 @@ package sec07.exam03_field_polymorphism;
 
 public class Car {
 	//field
+	//tire 필드 4개 생성
 	Tire flTire = new Tire("앞왼",6);
 	Tire frTire = new Tire("앞오",2);
 	Tire blTire = new Tire("뒤왼",3);
