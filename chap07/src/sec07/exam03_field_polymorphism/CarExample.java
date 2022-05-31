@@ -3,7 +3,7 @@ package sec07.exam03_field_polymorphism;
 public class CarExample {
 	public static void main(String[] args) {
 		Car car = new Car();
-		
+		//5번 반복
 		for(int i=0;i<=5;i++) {
 			int problemLocation = car.run();
 			//타이어 펑크남.

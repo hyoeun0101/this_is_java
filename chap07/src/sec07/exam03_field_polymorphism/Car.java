@@ -2,6 +2,7 @@ package sec07.exam03_field_polymorphism;
 
 public class Car {
 	//field
+
 //	Tire flTire = new Tire("¾Õ¿Þ",6);
 //	Tire frTire = new Tire("¾Õ¿À",2);
 //	Tire blTire = new Tire("µÚ¿Þ",3);
@@ -12,7 +13,6 @@ public class Car {
 			new Tire("µÚ¿Þ",3),
 			new Tire("µÚ¿À",4)
 	};
-	
 
 	//method
 	int run() {
