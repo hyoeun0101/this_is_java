@@ -5,7 +5,7 @@ public class Chatting {
 		String nickName = null;
 		nickName = chatId;
 		
-		Chat chat =new Chat( {};
+		Chat chat =new Chat() {};
 	}
 	class Chat{
 		void start() {}
