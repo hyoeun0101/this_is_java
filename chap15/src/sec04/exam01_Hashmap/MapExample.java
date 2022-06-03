@@ -1,4 +1,4 @@
-package sec04.exam04_map;
+package sec04.exam01_Hashmap;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -20,30 +20,29 @@ public class MapExample {
 		System.out.println("eun: "+map.get("eun"));
 		System.out.println("==========");
 		
-		//按眉甫 窍唱究 贸府
-		Set<String> keySet = map.keySet();
-		Iterator<String> keyIter = keySet.iterator();
+		//按眉甫 窍唱究 贸府 how1
+		Set<String> keyset = map.keySet();
+		Iterator<String> keyIter = keyset.iterator();
 		while(keyIter.hasNext()) {
 			String key = keyIter.next();
 			Integer value = map.get(key);
-			System.out.println(key+":"+value);
+			System.out.println(key+" : "+value);
 		}
-		System.out.println("=========");
+		System.out.println("========");
+
 		
 		//按眉 昏力
 		map.remove("eun");
 		System.out.println("Entry 荐: "+map.size());
 		
-		//按眉甫 窍唱究 贸府
+		//按眉甫 窍唱究 贸府 how2
 		Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
-		Iterator<Map.Entry<String, Integer>> iter = entrySet.iterator();
-		
-		while(iter.hasNext()) {
-			Map.Entry<String, Integer> entry = iter.next();
+		Iterator<Map.Entry<String, Integer>> entryIter = entrySet.iterator();
+		while(entryIter.hasNext()) {
+			Map.Entry<String, Integer> entry = entryIter.next();
 			String key = entry.getKey();
 			Integer value = entry.getValue();
-			System.out.println(key+":"+value);
-			
+			System.out.println(key+" : "+value);
 		}
 		System.out.println("========");
 		
