@@ -24,10 +24,7 @@ public class LinkedListExmaple {
 		for(int i=0;i<10;i++) {
 			list2.add(0,String.valueOf(i));
 		}
-		for(int i=0;i<10;i++) {
-			String s = list2.get(i);
-			System.out.println(s);
-		}
+		
 		endTime = System.nanoTime();
 		System.out.println("LinkedList 걸린 시간: "+(endTime-startTime));
 	
