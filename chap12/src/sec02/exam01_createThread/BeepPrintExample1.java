@@ -18,6 +18,8 @@ public class BeepPrintExample1 {
 			System.out.println("띵");
 			try {Thread.sleep(1000);}catch(Exception e) {}
 		}
+		
+		//메인 스레드는 순차적으로 실행한다.
 	}
 
 }

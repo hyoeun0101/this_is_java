@@ -1,9 +1,9 @@
 package sec02.exam02_thread_name;
 
 public class ThreadA extends Thread{
-	public ThreadA(){
-		setName("ThreadA");
-	}
+//	public ThreadA(){
+//		setName("Thread-A");
+//	}
 	@Override
 	public void run() {
 		for(int i=0;i<2;i++) {

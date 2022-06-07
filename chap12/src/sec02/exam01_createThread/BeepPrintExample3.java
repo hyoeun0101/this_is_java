@@ -1,7 +1,7 @@
 package sec02.exam01_createThread;
 
 import java.awt.Toolkit;
-
+//Thread 하위 클래스로부터 생성하기
 public class BeepPrintExample3 {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sec04.exam01_unsynchronized;
+package sec04.exam02_synchronized;
 
 public class User2 extends Thread{
 	private Calculator cal;

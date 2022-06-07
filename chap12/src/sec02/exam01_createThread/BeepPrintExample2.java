@@ -1,14 +1,16 @@
 package sec02.exam01_createThread;
 
 import java.awt.Toolkit;
-
+//Thread클래스로부터 직접 생성하기-> Runnable을 매개값으로 갖는 생성자 호출
 public class BeepPrintExample2{
 
 	//JVM이 생성한 메인 스레드에 의해서 자동으로 실행
 	public static void main(String[] args) {
-		//how
+		//how1
 		//		Runnable beepTask = new BeepTask();
+		//스레드 객체 생성
 		//		Thread thread = new Thread(beepTask);
+		//run()메소드 호출
 		//		thread.start();
 
 		//		//how2

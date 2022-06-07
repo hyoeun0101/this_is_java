@@ -8,6 +8,7 @@ public class ThreadNameExample {
 		
 		Thread threadA = new ThreadA();
 		System.out.println("ThreadA를 생성한 스레드: "+ Thread.currentThread().getName());
+//		System.out.println("작업 스레드 이름: "+ threadA.getName());
 		threadA.start();//스레드A 실행 -> 메소드 run() 실행
 		
 		Thread threadB = new ThreadB();

@@ -11,5 +11,4 @@ public class User1 extends Thread{
 	public void run() {
 		cal.setMemory(100);
 	}
-
 }

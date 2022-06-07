@@ -17,8 +17,10 @@ public class LambdaExample {
 	}
 	
 	public static void main(String[] args) {
-		double e = avg(student -> student.getEnglishScore());
-		double m = avg(student -> student.getMathScore());
+//		double e = avg(student -> student.getEnglishScore());
+		double e = avg(Student::getEnglishScore);
+//		double m = avg(student -> student.getMathScore());
+		double m = avg(Student::getMathScore);
 		
 		System.out.println(e);
 		System.out.println(m);

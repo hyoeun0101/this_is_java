@@ -1,4 +1,4 @@
-package sec04.exam01_unsynchronized;
+package sec04.exam02_synchronized;
 //공유 클래스
 public class Calculator {
 	private int memory;
@@ -7,7 +7,7 @@ public class Calculator {
 		return memory;
 	}
 
-	public void setMemory(int memory){
+	public synchronized void setMemory(int memory){
 		this.memory = memory;
 		try {
 			Thread.sleep(2000);
