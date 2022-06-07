@@ -27,6 +27,7 @@ public class OperatorExample {
 		
 		System.out.println("최대값: "+max);
 		System.out.println("최소값: "+min);
+
 	}
 
 }
