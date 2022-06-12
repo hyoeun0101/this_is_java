@@ -4,6 +4,7 @@ public class ThreadB extends Thread{
 	public boolean stop = false;
 	public boolean work = true;
 	
+	@Override
 	public void run() {
 		while(!stop) {
 			if(work) {

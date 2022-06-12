@@ -5,10 +5,10 @@ public class JoinExample {
 		SumThread sumThread = new SumThread();
 		sumThread.start();
 		
-		try {
-			sumThread.join();
-			
-		}catch(InterruptedException e) {}
+//		try {
+//			sumThread.join();
+//			
+//		}catch(InterruptedException e) {}
 		
 		System.out.println("1~100 гу: "+sumThread.getSum());
 	}

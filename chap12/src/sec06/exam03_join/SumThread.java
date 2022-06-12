@@ -10,6 +10,7 @@ public class SumThread extends Thread{
 		this.sum = sum;
 	}
 	
+	@Override
 	public void run() {
 		for(int i=0;i<=100;i++) {
 			sum+=i;
