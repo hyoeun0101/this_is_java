@@ -1,4 +1,4 @@
-package sec09.exam03_noresult;
+package sec09.exam03_blocking;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
